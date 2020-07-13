@@ -1,0 +1,9 @@
+@import url(./_name/error_name.css);
+@import url(./_description/error_description.css);
+@import url(./_hide/error_hide.css);
+
+.error {
+    font-size: 12px;
+    line-height: 15px;
+    color: #FF0000;
+}
