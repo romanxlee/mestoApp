@@ -7,8 +7,10 @@ import FormValidator from "./js/FormValidator.js";
 import Popup from "./js/Popup.js";
 import UserInfo from "./js/UserInfo.js";
 
+const serverUrl = NODE_ENV === 'development' ? 'http://praktikum.tk/cohort11' : 'https://praktikum.tk/cohort11';
+
 const api = new Api({
-    baseUrl: 'https://praktikum.tk/cohort11',
+    baseUrl: serverUrl,
     headers: {
         authorization: '71b080ef-be6b-414f-80d6-39f640d6ec77',
         'Content-Type': 'application/json'
