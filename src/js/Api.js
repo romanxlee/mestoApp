@@ -1,4 +1,4 @@
-class Api {
+export default class Api {
     constructor(options) {
         this.url = options.baseUrl;
         this.headers = options.headers;
