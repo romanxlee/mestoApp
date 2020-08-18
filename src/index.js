@@ -7,7 +7,7 @@ import FormValidator from "./js/FormValidator.js";
 import Popup from "./js/Popup.js";
 import UserInfo from "./js/UserInfo.js";
 
-const serverUrl = NODE_ENV === 'development' ? 'http://praktikum.tk/cohort11' : 'https://praktikum.tk/cohort11';
+const serverUrl = NODE_ENV === 'development' ? 'http://nomoreparties.co/cohort11' : 'https://nomoreparties.co/cohort11';
 
 const api = new Api({
     baseUrl: serverUrl,
